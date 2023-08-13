@@ -10,7 +10,9 @@ const Hero = () => {
       <div className="hero-slider">
         <div
           className="slide"
-          style={{ backgroundImage: `url(${"images/myimg2.webp"})` }}
+          style={{
+            backgroundImage: `url(${"../../public/images/myimg2.webp"})`,
+          }}
         >
           <div className="layout"></div>
           <div className="container">
