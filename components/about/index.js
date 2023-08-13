@@ -1,6 +1,9 @@
 import React from "react";
 import DefaultModal from "../AboutModal";
 import { useTranslation } from "react-i18next";
+import Image from "next/image";
+import myimg from "../../public/Images/myimg2.webp";
+import signature from "../../public/Images/signeture.png";
 
 const About = (props) => {
   const { t, i18n } = useTranslation();
@@ -11,7 +14,7 @@ const About = (props) => {
           <div className="col-lg-5 col-md-12 col-12">
             <div className="tp-about-wrap">
               <div className="tp-about-img">
-                <img src="images/myimg2.webp" alt="" />
+                <Image width={400} height={400} alt="Owner Img" src={myimg} />
               </div>
             </div>
           </div>
@@ -25,7 +28,7 @@ const About = (props) => {
                 <p>{t("description")}</p>
                 <div className="signeture">
                   <span>
-                    <img src="images/signeture.png" alt="" />
+                    <Image width={200} height={80} alt="" src={signature} />
                   </span>
                   {/* <p>Ceo Of Designlab IT</p> */}
                 </div>

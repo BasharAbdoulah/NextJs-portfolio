@@ -8,12 +8,7 @@ const Hero = () => {
   return (
     <section id="home" className="hero hero-slider-wrapper hero-style-1">
       <div className="hero-slider">
-        <div
-          className="slide"
-          style={{
-            backgroundImage: `url(${"../../public/images/myimg2.webp"})`,
-          }}
-        >
+        <div className="slide">
           <div className="layout"></div>
           <div className="container">
             <div className="row">
