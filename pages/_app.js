@@ -5,7 +5,7 @@ import "../styles/font-awesome.min.css";
 import "../styles/style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./i18n";
+import "../utils/i18n";
 import Head from "next/head";
 import Script from "next/script";
 
