@@ -8,7 +8,7 @@ const Scrollbar = () => {
       <div className="header-menu">
         <ul className="d-flex smothscroll">
           <li className="">
-            <AnchorLink
+            <a
               style={{
                 margin: "0 20px",
                 background: "transparent",
@@ -19,8 +19,8 @@ const Scrollbar = () => {
               target="_blank"
               className="d-flex justify-content-center align-items-center"
             >
-              <Image width={40} height={40} alt="Whatsapp Link" src={wIcon} />
-            </AnchorLink>
+              <Image width={40} height={38} alt="Whatsapp Link" src={wIcon} />
+            </a>
           </li>
           <li>
             <AnchorLink href="#home">
