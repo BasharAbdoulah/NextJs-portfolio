@@ -1,6 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import Image from "next/image";
+import wIcon from "../../public/Images/social.png";
 const Scrollbar = () => {
   return (
     <div className="col-lg-12">
@@ -18,7 +19,7 @@ const Scrollbar = () => {
               target="_blank"
               className="d-flex justify-content-center align-items-center"
             >
-              <img src="images/social.png" />
+              <Image width={40} height={40} alt="Whatsapp Link" src={wIcon} />
             </AnchorLink>
           </li>
           <li>
