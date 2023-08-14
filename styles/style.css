@@ -1234,9 +1234,9 @@ button:focus {
   position: absolute;
   left: -10px;
   top: -179px;
-  background: #191919;
+  background: #434343;
   width: 90px;
-  height: 265%;
+  height: 320%;
   z-index: -1;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -1279,16 +1279,23 @@ button:focus {
 
 .hero .social-links ul {
   list-style: none;
+  cursor: pointer;
+
 }
+
+
 
 .hero .social-links ul > li + li {
   margin-top: 10px;
 }
-
+.hero .social-links li a i {
+  font-size: 20px;
+}
 .hero .social-links li a {
   font-size: 14px;
   font-size: 0.93333rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .hero .social-links li a:hover {
@@ -1578,7 +1585,8 @@ button:focus {
   text-align: center;
 }
 .tp-about-section .tp-about-wrap .tp-about-img img {
-  width: 100%;
+  width: 95%;
+  max-width: 430px;
 }
 .tp-about-section .tp-about-wrap .tp-about-img .tp-ab-shape-1 {
   position: absolute;
@@ -3940,8 +3948,8 @@ ul.smothscroll a .fi:before{
   position: relative;
 }
 .tp-minimal-img img{
-  width: 100%;
-  max-height: 500px;
+  /* width: 100%; */
+  max-height: 600px;
   object-fit: cover;
 }
 .video-holder ul{
@@ -4232,5 +4240,5 @@ padding-bottom: 30px;
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #1b547bba;
+  background-color: #000000d4;
 }

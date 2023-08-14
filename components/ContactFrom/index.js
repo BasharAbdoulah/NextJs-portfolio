@@ -73,7 +73,7 @@ const ContactForm = () => {
               onChange={(e) => setSubject(e.target.value)}
               value={subject}
               type="text"
-              name="subject"
+              name="phoneNumber"
               required
               placeholder={t("subject_label")}
             />

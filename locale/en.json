@@ -52,7 +52,7 @@
         "contact": "Contact",
         "name_label": "Name",
         "email_label": "Email",
-        "subject_label": "Subject",
+        "subject_label": "Phone number",
         "message_label": "Your Message",
         "host" : "Hosting Plan",
         "bus_email" : "Professional Business Email",

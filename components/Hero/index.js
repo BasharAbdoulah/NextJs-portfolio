@@ -39,25 +39,16 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.facebook.com/"
+              href="https://www.instagram.com/codioor/"
             >
-              <i className="fa fa-facebook"></i>
+              <i className="fa fa-instagram"></i>
             </a>
           </li>
           <li>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://twitter.com/"
-            >
-              <i className="fa fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/bashar-abdullah-447130210/"
             >
               <i className="fa fa-linkedin"></i>
             </a>
@@ -66,9 +57,9 @@ const Hero = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.pinterest.com/"
+              href="https://github.com/BasharAbdoulah"
             >
-              <i className="fa fa-pinterest"></i>
+              <i className="fa fa-github"></i>
             </a>
           </li>
         </ul>

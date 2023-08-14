@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Dialog, Grid } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import Image from "next/image";
 
 const PortfolioSingle = ({
   maxWidth,
@@ -34,8 +35,13 @@ const PortfolioSingle = ({
             <div className="row">
               <div className="col-lg-12">
                 <div className="tp-minimal-wrap">
-                  <div className="tp-minimal-img">
-                    <img src={image1} alt="" />
+                  <div className="tp-minimal-img d-flex justify-content-center">
+                    <Image
+                      src={image1}
+                      alt="Project Image"
+                      width={530}
+                      height={600}
+                    />
                   </div>
                   <h2 className="d-flex align-items-center">
                     {title}{" "}
@@ -81,12 +87,22 @@ const PortfolioSingle = ({
                   <div className="row">
                     <div className="col-md-6 col-sm-6 col-12">
                       <div className="tp-p-details-img">
-                        <img src={image2} alt="" />
+                        <Image
+                          src={image2}
+                          alt="Project Image"
+                          width={430}
+                          height={430}
+                        />
                       </div>
                     </div>
                     <div className="col-md-6 col-sm-6 col-12">
                       <div className="tp-p-details-img">
-                        <img src={image3} alt="" />
+                        <Image
+                          src={image3}
+                          alt="Project Image"
+                          width={430}
+                          height={430}
+                        />
                       </div>
                     </div>
                   </div>
