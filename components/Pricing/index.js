@@ -28,7 +28,7 @@ const PricingPlan = () => {
                 </div>
                 <div className="pricing-body">
                   <h2>
-                    <sup>$</sup>500<span></span>
+                    <sup>$</sup>300<span></span>
                   </h2>
                   <ul>
                     <li>{t("web_design")}</li>
@@ -51,7 +51,7 @@ const PricingPlan = () => {
                 </div>
                 <div className="pricing-body">
                   <h2>
-                    <sup>$</sup>800<span></span>
+                    <sup>$</sup>500<span></span>
                   </h2>
                   <ul>
                     <li>{t("web_design")}</li>
